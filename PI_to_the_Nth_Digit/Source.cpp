@@ -14,7 +14,7 @@ int main()
 	cout << "Please enter the number of digits to calculate PI to (limit: 100): ";
 	int number_of_digits = 0;
 	cin >> number_of_digits;
-	
+
 	// Check for improper input
 	while (number_of_digits < 0 || number_of_digits > 100)
 	{
@@ -22,7 +22,7 @@ int main()
 		cout << "Please enter the number of digits to calculate PI to: ";
 		cin >> number_of_digits;
 	}
-	
+
 	// Adjust number of digits to account for the number 3 and the decimal point
 	number_of_digits += 2;
 
